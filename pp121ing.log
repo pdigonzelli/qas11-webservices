@@ -1,0 +1,70 @@
+
+**  ProxyGen, Progress Version 11.7
+
+** Checking for existence of .r files ...
+
+** Processing non-persistent procedures ...
+
+** Processing: C:\qas\pp121ing_1.r ...
+   -- Parsing r-code ...
+       MAIN C:\sanmiguel11\sistemas\programas\qas\pp121ing_1.p 
+          INPUT DREQUEST DATASET
+          OUTPUT RESPUESTA TABLE
+       DATASET: DREQUEST
+          BUFFERS: CABECERA, POSICION, TCALIBRE, TVAPOR, TAGENCIA
+       TABLE: POSICION
+          PORDEN CHARACTER
+          PFECHASEMANA CHARACTER
+          PCANTIDADORDEN CHARACTER
+          PUNIDAD CHARACTER
+          PMARCA CHARACTER
+          PCONTRAMARCA CHARACTER
+          PENVASE CHARACTER
+          PESPECIE CHARACTER
+          PVARIEDAD CHARACTER
+          PCALIDAD CHARACTER
+          PCATEGORIA CHARACTER
+          PTIPOPALLET CHARACTER
+          PTIPOESQUINERO CHARACTER
+          PMERCADO CHARACTER
+       TABLE: TCALIBRE
+          PCALIBRESTD CHARACTER
+          PCANTIDAD CHARACTER
+       TABLE: TVAPOR
+          PVAPOR CHARACTER
+          PDESCRIPCIONVAPOR CHARACTER
+       TABLE: TAGENCIA
+          PLUGARDESCARGA CHARACTER
+          PAGENCIA CHARACTER
+          PDESCRIPCIONAGENCIA CHARACTER
+       TABLE: CABECERA
+          SDOCUMENTOVENTA CHARACTER
+          SPOSICIONDOCUMENTOVENTA CHARACTER
+          SSOLICITANTE CHARACTER
+          SNOMBRE CHARACTER
+          SFECHADOCUMENTO CHARACTER
+          SMATERIAL CHARACTER
+          SCANTIDAD CHARACTER
+          SUNIDAD CHARACTER
+          SPUERTOSALIDA CHARACTER
+          SDESCRIPCIONPUERTOSALIDA CHARACTER
+          SDESTINO CHARACTER
+          SDESCRIPCIONDESTINO CHARACTER
+          SPUERTOLLEGADA CHARACTER
+          SDESCRIPCIONPUERTOLLEGADA CHARACTER
+       TABLE: RESPUESTA
+          POSTATUS CHARACTER
+          POMENSAJE CHARACTER
+   -- No customizations; Validation not necessary
+
+** Processing procedure objects ...
+
+** Checking method and parameter names ...
+
+** Generating Web Services files ...
+   Creating wsm file ...
+   Generation of wsm file complete ...
+   Creating test wsdl file ...
+   Generation of test wsdl file complete ...
+
+** Generation complete

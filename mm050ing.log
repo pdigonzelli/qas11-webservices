@@ -1,0 +1,61 @@
+
+**  ProxyGen, Progress Version 11.7
+
+** Checking for existence of .r files ...
+
+** Processing non-persistent procedures ...
+
+** Processing: C:\qas\mm050ing.r ...
+   -- Parsing r-code ...
+       MAIN C:\sanmiguel11\sistemas\programas\qas\mm050ing.p 
+          INPUT SSUCURSAL CHARACTER
+          INPUT STRANSPORTISTA CHARACTER
+          INPUT STRANSPORTE CHARACTER
+          INPUT SPESOENTRADA CHARACTER
+          INPUT SFECHAENTRADA CHARACTER
+          INPUT SHORAENTRADA CHARACTER
+          INPUT SPESOSALIDA CHARACTER
+          INPUT SFECHASALIDA CHARACTER
+          INPUT SHORASALIDA CHARACTER
+          INPUT SPESODESCARTE CHARACTER
+          INPUT SPESONETO CHARACTER
+          INPUT SNROPESADA CHARACTER
+          INPUT POSICIONES TABLE
+          OUTPUT RESPUESTAS TABLE
+       TABLE: POSICIONES
+          PSNROREMITO CHARACTER
+          PSFECHAREMITO CHARACTER
+          PSNROLOTE CHARACTER
+          PSFECHACOSECHA CHARACTER
+          PSMERCADO CHARACTER
+          PSMATERIAL CHARACTER
+          PSLOTEAGRICOLA CHARACTER
+          PSNRODOCUMENTOMATERIAL CHARACTER
+          PSESPECIE CHARACTER
+          PSVARIEDAD CHARACTER
+          PSFINCA CHARACTER
+          PSTRAZABILIDAD CHARACTER
+          PSTIPOENVASE CHARACTER
+          PSCANTENVASES CHARACTER
+          PSCANTPES CHARACTER
+          PSUNIDAD CHARACTER
+          PSTIPOCORTE CHARACTER
+          PSCOLOR CHARACTER
+          PSNROPESADA CHARACTER
+          PSNROPOSICIONPESADA CHARACTER
+       TABLE: RESPUESTAS
+          POSTATUS CHARACTER
+          POMENSAJE CHARACTER
+   -- No customizations; Validation not necessary
+
+** Processing procedure objects ...
+
+** Checking method and parameter names ...
+
+** Generating Web Services files ...
+   Creating wsm file ...
+   Generation of wsm file complete ...
+   Creating test wsdl file ...
+   Generation of test wsdl file complete ...
+
+** Generation complete
